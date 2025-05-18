@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(135deg, #74ebd5 0%, #ACB6E5 100%);
+    margin: 0; 
+    padding: 0; 
+    color: #333;
+}
+#logo {
+    width: auto;
+    height: auto;
+    border-radius: 20%;
+}
+header {
+    background-color: rgba(0,0,0,0.15);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: #222;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+}
+header h1 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+}
+header p {
+    margin-top: 0.4rem;
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #444;
+}
+main {
+    max-width: 900px;
+    margin: 2rem auto 3rem auto;
+    padding: 0 1rem;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
+th, td {
+    padding: 1rem 1.2rem;
+    text-align: left;
+}
+th {
+    background-color: #4a90e2;
+    color: white;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+th a {
+    color: white;
+}
+tfoot{
+    color: #444;
+    font-size: 0.8em;
+}
+tr:nth-child(even) {
+    background-color: #f9faff;
+}
+tr:hover {
+    background-color: #e3f2fd;
+}
+caption {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    color: #222;
+}
+.freccia {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+footer {
+    text-align: center;
+    padding: 1rem;
+    color: #555;
+    font-size: 0.9rem;
+}
+footer a {
+    color: #4a90e2;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+footer a:hover,
+footer a:focus {
+    color: #23527c;
+    text-decoration: none;
+}
+
+@media (max-width: 700px) {
+    #logo {
+        width: 100%;
+        height: auto;
+    }
+    header h1 {
+        font-size: 1.6rem;
+    }
+    main {
+        padding: 0 0.3rem;
+    }
+    table, th, td {
+        font-size: 0.95rem;
+    }
+    th, td {
+        padding: 0.7rem 0.5rem;
+    }
+    caption {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    #logo {
+        width: 100%;
+        height: auto;
+    }
+    header {
+        padding: 1rem 0.3rem;
+    }
+    header h1 {
+        font-size: 1.1rem;
+    }
+    header p {
+        font-size: 0.95rem;
+    }
+    main {
+        margin: 1rem 0 2rem 0;
+        padding: 0 0.1rem;
+    }
+    table, th, td {
+        font-size: 0.85rem;
+    }
+    th, td {
+        padding: 0.5rem 0.2rem;
+    }
+    caption {
+        font-size: 1rem;
+    }
+}
