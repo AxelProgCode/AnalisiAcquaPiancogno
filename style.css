@@ -67,6 +67,9 @@ th {
 th a {
     color: white;
 }
+th i, td i {
+    color: transparent 50%;
+}
 tfoot{
     color: #444;
     font-size: 0.8em;
