@@ -67,6 +67,12 @@ th {
 th a {
     color: white;
 }
+th .valoridiriferimento {
+    color: #444;
+}
+td .valoridiriferimento{
+    color: #444;
+}
 tfoot{
     color: #444;
     font-size: 0.8em;
