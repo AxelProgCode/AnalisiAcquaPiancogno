@@ -67,10 +67,7 @@ th {
 th a {
     color: white;
 }
-th .valoridiriferimento {
-    color: #444;
-}
-td .valoridiriferimento{
+.valoridiriferimento {
     color: #444;
 }
 tfoot{
